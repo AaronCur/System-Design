@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "LLD/Principles/Delivery Framework Quiz.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "Delivery Framework Quiz"
             }
           }
         ],
@@ -123,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "LLD/Principles/Delivery Framework Quiz.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +133,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for README"
+              "title": "Backlinks for Delivery Framework Quiz"
             }
           },
           {
@@ -142,12 +142,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "LLD/Principles/Delivery Framework Quiz.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from README"
+              "title": "Outgoing links from Delivery Framework Quiz"
             }
           },
           {
@@ -185,13 +185,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md",
+                "file": "LLD/Principles/Delivery Framework Quiz.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of README"
+              "title": "Outline of Delivery Framework Quiz"
             }
           }
         ]
@@ -214,15 +214,24 @@
   },
   "active": "f3776892a3e332ec",
   "lastOpenFiles": [
-    "LLD/Problem Breakdowns/Problem Breakdowns.md",
-    "LLD/Principles/Principles.md",
-    "README.md",
-    "LLD/Problem Breakdowns/Parking Lot/Parking Lot Cheatsheet.md",
-    "LLD/Problem Breakdowns/Parking Lot/Parking Lot.md",
+    "LLD/Principles/SOLID/Cheat Sheet.md",
+    "LLD/Principles/Delivery Framework Quiz.md",
+    "LLD/Principles/SOLID/Solid.md",
+    "LLD/Principles/Delivery Framework/Delivery Framework.md",
+    "LLD/Principles/Delivery Framework/Cheat Sheet.md",
+    "LLD/Principles/General Principles/Cheat Sheet.md",
+    "LLD/Principles/General Principles/General Principles.md",
+    "LLD/Principles/General Principles",
+    "LLD/Principles/SOLID/Untitled.md",
     "LLD/Principles/SOLID/SOLID Cheatsheet.md",
     "LLD/Principles/SOLID/SOLID.md",
+    "LLD/Principles/Delivery Framework",
+    "README.md",
+    "LLD/Problem Breakdowns/Problem Breakdowns.md",
+    "LLD/Principles/Principles.md",
+    "LLD/Problem Breakdowns/Parking Lot/Parking Lot Cheatsheet.md",
+    "LLD/Problem Breakdowns/Parking Lot/Parking Lot.md",
     "LLD/Problem Breakdowns/Parking Lot",
-    "LLD/Principles/SOLID/Untitled.md",
     "LLD/Problem Breakdowns",
     "LLD/Principles/SOLID",
     "LLD/Principles",
