@@ -1,0 +1,231 @@
+{
+  "main": {
+    "id": "9899a4694e2e4b90",
+    "type": "split",
+    "children": [
+      {
+        "id": "9d0eecdf2578fd06",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "15fdc08aba51cd39",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "LLD/Problem Breakdowns/Parking Lot/Parking Lot Cheatsheet.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Parking Lot Cheatsheet"
+            }
+          },
+          {
+            "id": "62714c187fc43542",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "LLD/Problem Breakdowns/Parking Lot/Parking Lot.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Parking Lot"
+            }
+          },
+          {
+            "id": "f3776892a3e332ec",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "README"
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "3004f094d200d867",
+    "type": "split",
+    "children": [
+      {
+        "id": "be4aac5c7b9e51bc",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "960090beef63d4d1",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "c5e254737bca20e3",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "d07c2ca28021c5a1",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "2248ea7df3f5cfca",
+    "type": "split",
+    "children": [
+      {
+        "id": "6bf944dd3c6b3ba5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4803a61968e31bbb",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "README.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for README"
+            }
+          },
+          {
+            "id": "12a37139a00a8a73",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "README.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from README"
+            }
+          },
+          {
+            "id": "9897ae55d9e2c7e9",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "552ceda713f9ffd7",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "534b97bba40f51cf",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "README.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of README"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "f3776892a3e332ec",
+  "lastOpenFiles": [
+    "LLD/Problem Breakdowns/Problem Breakdowns.md",
+    "LLD/Principles/Principles.md",
+    "README.md",
+    "LLD/Problem Breakdowns/Parking Lot/Parking Lot Cheatsheet.md",
+    "LLD/Problem Breakdowns/Parking Lot/Parking Lot.md",
+    "LLD/Principles/SOLID/SOLID Cheatsheet.md",
+    "LLD/Principles/SOLID/SOLID.md",
+    "LLD/Problem Breakdowns/Parking Lot",
+    "LLD/Principles/SOLID/Untitled.md",
+    "LLD/Problem Breakdowns",
+    "LLD/Principles/SOLID",
+    "LLD/Principles",
+    "LLD"
+  ]
+}
