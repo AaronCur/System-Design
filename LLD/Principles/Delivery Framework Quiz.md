@@ -63,3 +63,45 @@
 > * B) False
 > 
 > <details><summary><b>Answer</b></summary><b>B) False </b>Direct calls make the order service depend on each concrete follow-up action, so adding or changing listeners often requires modifying the order service. An event-driven or observer-style design can let new subscribers react to an order-shipped event without changing the publisher, though it may add complexity around delivery and failures.</details>
+
+
+> [!TIP] 
+> **A Report class handles content generation, PDF formatting, and file storage. According to the Single Responsibility Principle, how many separate responsibilities does this class have?**
+> * A) Two - Content and Delivery
+> * B) Zero - SRP doesn't apply to utility classes
+> * C) One - It's all about reports
+> * D) Three - Content generation, PDF formatting and file storage
+> 
+> <details><summary><b>Answer</b></summary><b>D) Three </b>SRP says each class should have one reason to change. This class has three distinct responsibilities: content generation (what the report says), PDF formatting (how it looks), and file storage (where it's saved). Changes to any one of these areas would require modifying this class.</details>
+
+> [!TIP] 
+> **DIP is achieved when NotificationService receives a MessageSender interface through its constructor rather than creating EmailSender directly.**
+> * A) True
+> * B) False
+> 
+> <details><summary><b>Answer</b></summary><b>A) True </b>DIP says high-level modules should depend on abstractions, not concrete classes. Receiving the interface through the constructor enables dependency injection.</details>
+
+> [!TIP] 
+> **A checkout service must let the business choose between several discount calculation rules at runtime without changing the checkout flow. Which design best fits this need?.**
+> * A) Put all the discount rules in one large "if / else" block inside "CheckoutService".
+> * B) Make "CheckoutService" inherit from each discount type it might use.
+> * C) Duplicate the checkout flow once per discount rule.
+> * D) Create a seperate discount strategy classes behind a common interface and inject the selected one
+> 
+> <details><summary><b>Answer</b></summary><b>D). </b>Using a Strategy-style design separates the stable checkout workflow from interchangeable discount behavior. This keeps the main service simpler and makes adding or swapping rules less invasive than editing a large conditional.</details>
+
+> [!TIP] 
+> **Which principle most directly improves testability by enabling mock objects?**
+> * A) OCP.
+> * B) SRP.
+> * C) LSP
+> * D) DIP.
+> 
+> <details><summary><b>Answer</b></summary><b>D) DIP. </b>DIP enables testability by having code depend on interfaces rather than concrete classes. This lets you inject mock implementations during testing..</details>
+
+> [!TIP] 
+> **If callers need to write special-case logic like if (bird instanceof Penguin) before calling fly(), the design likely violates LSP.**
+> * A) True
+> * B) False
+> 
+> <details><summary><b>Answer</b></summary><b>B) True. </b>LSP says subclasses must work wherever the base class works. If callers need instanceof checks, the subclass is breaking the contract the parent class established.</details>
