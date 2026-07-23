@@ -105,3 +105,37 @@
 > * B) False
 > 
 > <details><summary><b>Answer</b></summary><b>B) True. </b>LSP says subclasses must work wherever the base class works. If callers need instanceof checks, the subclass is breaking the contract the parent class established.</details>
+
+> [!TIP] 
+> **A Worker interface has methods work(), eat(), and sleep(). A Robot class implements Worker but has no meaningful implementation for eat() and sleep(). What's the issue?**
+> * A) The Robot class needs more methods
+> * B) The Worker interface is too large
+> * C) There's no issue with this design
+> * D) The Robot class is too simple
+> 
+> <details><summary><b>Answer</b></summary><b>B) The Worker interface is too large. </b>This violates ISP. Robot is forced to implement methods it doesn't need. Split into smaller interfaces like Workable and LivingBeing.</details>
+
+
+> [!TIP] 
+> **When two pieces of code look textually similar but serve different conceptual purposes, you should consolidate them into a shared function.**
+> * A) True
+> * B) False
+> 
+> <details><summary><b>Answer</b></summary><b>B) False. </b>The key to DRY is whether the logic is conceptually the same, not just textually similar. Forcing unrelated code to share an abstraction creates artificial coupling..</details>
+
+> [!TIP] 
+> **If a high-level service receives a PaymentRepository interface through its constructor, but that interface lives in the same low-level module as PostgresPaymentRepository, the design can still violate the Dependency Inversion Principle at the module level.**
+> * A) True
+> * B) False
+> 
+> <details><summary><b>Answer</b></summary><b>A) True. </b>Constructor injection removes direct object creation, but DIP is also about source-code dependencies. If the high-level policy must import a low-level module just to reference the interface, changes or packaging constraints in that low-level module can still ripple upward.</details>
+
+> [!TIP] 
+> **An Order object exposes getLineItems() by returning its internal mutable list. A pricing component temporarily removes an item to simulate a discount, and the real order is accidentally changed. What redesign best preserves the domain invariant without adding unnecessary infrastructure?**
+> * A) Make the list public final so callers can see that it belongs to the order.
+> * B) Return an immutable snapshot or read-only view, and expose domain methods such as addLineItem/removeLineItem that enforce invariants.
+> * C) Require every caller to deep-copy the entire Order before reading line items.
+> * D) Keep returning the mutable list, but document that callers must not modify it.
+> 
+> <details><summary><b>Answer</b></summary><b>B) Return an immutable snapshot or read-only view, and expose domain methods such as addLineItem/removeLineItem that enforce invariants.. </b>The problem is not just mutation; it is mutation that bypasses the object responsible for maintaining invariants. Encapsulation works best when reads do not expose internal state and writes go through behavior that can validate business rules.</details>
+
